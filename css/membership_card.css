@@ -1,0 +1,273 @@
+#prime_membership_card {
+    background: #f8f9fa;
+    padding: 40px 0px;
+}
+
+#prime_membership_card h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #1f1f1f;
+    max-width: 1100px;
+    margin: auto;
+}
+
+#section1 {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+#section1 .inner_section1 {
+    padding-top: 5px;
+    width: 40%;
+}
+
+#section1 .inner_section1 img {
+    width: 100%;
+}
+
+#section1 .inner_section2 {
+    width: 60%;
+    padding: 0px 40px;
+}
+
+#section1 .inner_section2 h1,
+#Section2 h1,
+#section3 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #1f1f1f;
+    text-align: center;
+}
+#section3 h1{
+    margin-bottom: 25px;
+}
+#section1 .inner_section2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #3a3a3a;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#section1 .inner_section2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #3a3a3a;
+
+}
+
+#section1 .inner_section2 a {
+    /* font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #292929; */
+    text-decoration: none;
+    /* border: 2px solid black; */
+    /* border-radius: 5px; */
+}
+#section1 .inner_section2 a > div{
+    width:120px;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #292929;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#section1 .inner_section2 a > div:hover{
+    background: black;
+    color: white;
+    transition: 0.2s;
+}
+
+#section1 .inner_section2 div,
+#section1 .inner_section2 div p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #1f1f1f;
+}
+
+#Section2 {
+    padding: 30px 0px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+#Section2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+
+#section3 {
+    padding: 60px 0px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+#section3>#container>ul {
+    display: block;
+    padding-left: 0px;
+}
+
+#section3>#container>ul>li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    /* border-right: 1px solid #ececec; */
+    /* border-bottom: 1px solid #ececec; */
+    color: #2f2d2d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    /* border-radius: 6px; */
+}
+
+#section3 .content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 600;
+}
+#section3 #container{
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#section3 #container >ul{
+    border-bottom: 1px solid #ececec;
+    border-radius: 0px;
+    border-top: none;
+    margin-bottom: 0px;
+}
+#section3 #container >ul >li{
+    cursor: pointer;
+}
+#section3 #container >ul>li:nth-child(1){
+    border-top: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+
+}
+
+#section3 #container .content {
+    padding-left: 25px;
+    /* border: 1px solid #ececec; */
+    /* border-top: none; */
+    max-width: 1100px;
+    margin: auto;
+    border-right:1px solid #ececec;
+    border-left: 1px solid #ececec;
+    padding-top: 25px;
+    padding-right: 25px;
+    
+}
+
+#section3 #container .content ul {
+    padding-left: 0px;
+}
+
+#section3 #container .content ul li,#section3 #container .content ul div {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #484848;
+    
+}
+#section3 #container .content ul div a{
+    text-decoration: none;
+    color: #030f4d;
+}
+#section3 #container .content ul div a:hover {
+    color: #ed940d;
+}
+
+
+#section3 #container .content ul li svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+@media(max-width:1200px) {
+
+    #prime_membership_card h1,
+    #section1,
+    #Section2,#section3 {
+        max-width: 930px;
+    }
+}
+
+@media(max-width:1000px) {
+
+    #prime_membership_card h1,
+    #section1,
+    #Section2,#section3 {
+        max-width: 650px;
+    }
+}
+
+@media(max-width:770px) {
+    #prime_membership_card h1 {
+        max-width: 500px;
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    #prime_membership_card h1,
+    #section1,
+    #Section2,#section3 {
+        max-width: 500px;
+    }
+
+    #section1 {
+        display: block;
+    }
+
+    #section1 .inner_section1 {
+        width: 100%;
+    }
+
+    #section1 .inner_section2 {
+        width: 100%;
+    }
+
+}
+
+@media(max-width:575px) {
+
+    #prime_membership_card h1,
+    #section1,
+    #section1 .inner_section1,
+    #section1 .inner_section2,
+    #Section2,#section3 {
+        display: block;
+        padding: 40px 15px;
+        width: 100%;
+    }
+}
